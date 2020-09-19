@@ -56,7 +56,7 @@ void setup() {
 	pinMode(LED_PIN, OUTPUT);
 	digitalWrite(LED_PIN, LOW);
 
-	Timer1.initialize(SECOND);
+	Timer1.initialize();
 }
 
 // the loop function runs over and over again until power down or reset
